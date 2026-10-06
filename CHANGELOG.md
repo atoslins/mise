@@ -1,5 +1,67 @@
 # Changelog
 
+## [2026.10.4](https://github.com/jdx/mise/compare/v2026.10.3..v2026.10.4) - 2026-10-06
+
+### 🚀 Features
+
+- **(install)** add an opt-in identity-based install layout by @jdx in [#13951](https://github.com/jdx/mise/pull/13951)
+- **(install)** keep identity-layout installations in a shorter directory on Windows by @jdx in [#13952](https://github.com/jdx/mise/pull/13952)
+- **(installs)** list installations and choose the one requests without a lockfile use by @jdx in [#13953](https://github.com/jdx/mise/pull/13953)
+- **(installs)** move legacy installations into the identity layout by @jdx in [#13955](https://github.com/jdx/mise/pull/13955)
+- **(lock)** preserve shared lockfile entries on request by @jdx in [#13980](https://github.com/jdx/mise/pull/13980)
+
+### 🐛 Bug Fixes
+
+- **(backend)** read a repository's packslip release list once per command by @jdx in [#13991](https://github.com/jdx/mise/pull/13991)
+- **(dotenv)** leave a value ending in escaped whitespace unquoted by @jdx in [#13956](https://github.com/jdx/mise/pull/13956)
+- **(dotfiles)** explain missing sources in conflicting declaration errors by @himkt in [#13973](https://github.com/jdx/mise/pull/13973)
+- **(env)** fully redact secrets when redaction values overlap by @jdx in [#13962](https://github.com/jdx/mise/pull/13962)
+- **(http)** fetch a cached GitHub release once when callers race by @jdx in [#13990](https://github.com/jdx/mise/pull/13990)
+- **(install)** switch backends into a new installation, and resolve CLI-named versions without guessing by @jdx in [#13957](https://github.com/jdx/mise/pull/13957)
+- **(mcp)** reject run_task task names that start with a dash by @jdx in [#13961](https://github.com/jdx/mise/pull/13961)
+- **(uninstall)** report each version once in a dry run by @jdx in [#13992](https://github.com/jdx/mise/pull/13992)
+
+### 📚 Documentation
+
+- **(readme)** add Star History badges by @jdx in [#13968](https://github.com/jdx/mise/pull/13968)
+
+### 🧪 Testing
+
+- **(e2e)** stabilize task timing assertions by @jdx in [#13977](https://github.com/jdx/mise/pull/13977)
+- **(go)** disable minimum_release_age in go install e2e by @jdx in [#13989](https://github.com/jdx/mise/pull/13989)
+
+### 📦️ Dependency Updates
+
+- lock file maintenance by @renovate[bot] in [#13963](https://github.com/jdx/mise/pull/13963)
+- update github actions by @renovate[bot] in [#13994](https://github.com/jdx/mise/pull/13994)
+- update rust crates by @renovate[bot] in [#13996](https://github.com/jdx/mise/pull/13996)
+- update rust crate nodejs-semver to v7 by @renovate[bot] in [#13999](https://github.com/jdx/mise/pull/13999)
+- update jdx/mise-action action to v5 by @renovate[bot] in [#13997](https://github.com/jdx/mise/pull/13997)
+- update jdx/renovate-config action to v1.0.2 by @renovate[bot] in [#14003](https://github.com/jdx/mise/pull/14003)
+
+### 📦 Registry
+
+- update moved plugin references by @jdx in [#13972](https://github.com/jdx/mise/pull/13972)
+
+### Chore
+
+- **(ci)** update pr-closer to v1.3.0 by @jdx in [83f3e90](https://github.com/jdx/mise/commit/83f3e906dd5741f59722b558efec682cf7aa0137)
+
+### Ci
+
+- update pr closer action by @jdx in [#13970](https://github.com/jdx/mise/pull/13970)
+
+### 📦 Aqua Registry Updates
+
+#### New Packages (2)
+
+- [`editorconfig/editorconfig-core-go`](https://github.com/editorconfig/editorconfig-core-go)
+- [`tontinton/maki`](https://github.com/tontinton/maki)
+
+#### Updated Packages (1)
+
+- [`anchore/syft`](https://github.com/anchore/syft)
+
 ## [2026.10.3](https://github.com/jdx/mise/compare/v2026.10.2..v2026.10.3) - 2026-10-05
 
 ### 🚀 Features
